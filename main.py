@@ -7,7 +7,6 @@ while True:
     user_pr = input("Type add, show, edit(eg. edit 3), complete or exit: ")
     user_pr = user_pr.strip()
 
-
     if user_pr.startswith("add"):
         todo = user_pr[4:] + "\n"
         todos = get_todos()
