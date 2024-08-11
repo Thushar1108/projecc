@@ -1,4 +1,5 @@
 python
-gym
 volley
-football
+cricket
+math tutorial
+phy
