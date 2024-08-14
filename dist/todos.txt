@@ -1,0 +1,3 @@
+Chem theory upto entropy
+python web app and basics
+math theory and practice
