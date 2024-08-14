@@ -10,11 +10,11 @@ clock = sg.Text('',key="clock")
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter todo",key="todo")
 # key assigns the key of value for dict that will be created,stored eg {todo: input}
-add = sg.Button("Add")
+add = sg.Button(image_size=[70,40], image_source="add.png", tooltip="Add todo", key="Add",mouseover_colors="LightBlue2")
 list_box = sg.Listbox(values=functions.get_todos(),key="todos",
                       enable_events=True, size = [45,10])
 edit = sg.Button("Edit")
-Complete = sg.Button("Complete")
+Complete = sg.Button(image_source="complete.png", image_size=[80,50], tooltip="Complete todo", key="Complete")
 exit = sg.Button("Exit")
 # button_labels = ["Close", "Apply"]
 # layout = []

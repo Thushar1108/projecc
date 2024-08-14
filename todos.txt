@@ -1,5 +1,0 @@
-python
-volley
-cricket
-math tutorial
-phy
